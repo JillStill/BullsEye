@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F043C3B2A00FB42006DD230 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F043C3A2A00FB42006DD230 /* TextViews.swift */; };
 		3F1577DE29FCFBB500B22E99 /* BullsEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1577DD29FCFBB500B22E99 /* BullsEyeApp.swift */; };
 		3F1577E029FCFBB500B22E99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1577DF29FCFBB500B22E99 /* ContentView.swift */; };
 		3F1577E229FCFBB700B22E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1577E129FCFBB700B22E99 /* Assets.xcassets */; };
 		3F1577E529FCFBB700B22E99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1577E429FCFBB700B22E99 /* Preview Assets.xcassets */; };
 		3F1577EF29FE73EC00B22E99 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1577EE29FE73EC00B22E99 /* Game.swift */; };
 		3F1577F729FFA95300B22E99 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1577F629FFA95300B22E99 /* BullsEyeTests.swift */; };
+		3FAFA6772A06130500884FEE /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFA6762A06130500884FEE /* Shapes.swift */; };
+		3FAFA6792A0675E200884FEE /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFA6782A0675E200884FEE /* RoundedViews.swift */; };
+		3FAFA67B2A08C96900884FEE /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFA67A2A08C96900884FEE /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F043C3A2A00FB42006DD230 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
 		3F1577DA29FCFBB500B22E99 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1577DD29FCFBB500B22E99 /* BullsEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeApp.swift; sourceTree = "<group>"; };
 		3F1577DF29FCFBB500B22E99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +39,9 @@
 		3F1577EE29FE73EC00B22E99 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		3F1577F429FFA95300B22E99 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1577F629FFA95300B22E99 /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+		3FAFA6762A06130500884FEE /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		3FAFA6782A0675E200884FEE /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		3FAFA67A2A08C96900884FEE /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				3F1577DF29FCFBB500B22E99 /* ContentView.swift */,
+				3F043C3A2A00FB42006DD230 /* TextViews.swift */,
+				3FAFA6762A06130500884FEE /* Shapes.swift */,
+				3FAFA6782A0675E200884FEE /* RoundedViews.swift */,
+				3FAFA67A2A08C96900884FEE /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,7 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAFA6792A0675E200884FEE /* RoundedViews.swift in Sources */,
 				3F1577E029FCFBB500B22E99 /* ContentView.swift in Sources */,
+				3F043C3B2A00FB42006DD230 /* TextViews.swift in Sources */,
+				3FAFA67B2A08C96900884FEE /* BackgroundView.swift in Sources */,
+				3FAFA6772A06130500884FEE /* Shapes.swift in Sources */,
 				3F1577EF29FE73EC00B22E99 /* Game.swift in Sources */,
 				3F1577DE29FCFBB500B22E99 /* BullsEyeApp.swift in Sources */,
 			);

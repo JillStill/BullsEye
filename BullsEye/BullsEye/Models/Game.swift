@@ -8,11 +8,32 @@
 import Foundation
 
 struct Game {
-    let target = Int.random(in: 1...100)
-    let score = 0
-    let round = 1
+    var target = Int.random(in: 1...100)
+    var score = 0
+    var round = 1
     
     func points(sliderValue: Int) -> Int{
-        return 100-abs(sliderValue-target)
+        var result: Int = 100-abs(sliderValue-target)
+        if (sliderValue == target){
+            result+=100
+        }
+            
+        if (abs(sliderValue-target) == 1){
+            result+=50
+        }
+        return result
+    }
+    
+    mutating func startNewRound(points: Int) {
+        score+=points
+        round+=1
+        target = Int.random(in: 1...100)
+    }
+    
+    mutating func restart(){
+        score=0
+        round = 1
+        target = Int.random(in: 1...100)
+
     }
 }
